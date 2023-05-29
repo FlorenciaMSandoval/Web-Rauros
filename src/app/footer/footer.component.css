@@ -1,0 +1,11 @@
+footer {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 10%;
+    background-color: #151515;
+    color: white;
+    position: relative;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
