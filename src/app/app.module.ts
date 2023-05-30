@@ -13,6 +13,10 @@ import { ContactComponent } from './contact/contact.component';
 import { MultimediaComponent } from './multimedia/multimedia.component';
 import { HeaderMenuComponent } from './header-menu/header-menu.component';
 import { MainContainerComponent } from './main-container/main-container.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
   declarations: [
@@ -27,11 +31,14 @@ import { MainContainerComponent } from './main-container/main-container.componen
     ContactComponent,
     MultimediaComponent,
     HeaderMenuComponent,
-    MainContainerComponent
+    MainContainerComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    CarouselModule,
+    AppRoutingModule,SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
