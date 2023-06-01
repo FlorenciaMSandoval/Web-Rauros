@@ -1,0 +1,14 @@
+.map {
+    width: 70%;
+}
+
+h1 {
+    /* display: flex;
+    justify-content: center; */
+}
+
+.where {
+    /* display: block; */
+    justify-content: center;
+    vertical-align: middle;
+}

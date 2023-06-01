@@ -15,8 +15,8 @@ import { HeaderMenuComponent } from './header-menu/header-menu.component';
 import { MainContainerComponent } from './main-container/main-container.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CarouselModule } from 'ngx-owl-carousel-o';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { WhereWeAreComponent } from './where-we-are/where-we-are.component';
 
 @NgModule({
   declarations: [
@@ -32,13 +32,14 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     MultimediaComponent,
     HeaderMenuComponent,
     MainContainerComponent,
-    CarouselComponent
+    CarouselComponent,
+    WhereWeAreComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    CarouselModule,
-    AppRoutingModule,SlickCarouselModule
+    AppRoutingModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
