@@ -1,13 +1,23 @@
-.where-we-are {
-    padding-top: 20px;
-}
-
-.where-we-are h1 {
-    text-align: center;
-}
-
-.where-we-are img {
-    display: flex;
-    width: 500px;
-    align-items: center;
-}
+    .where-we-are {
+        padding-top: 20px;
+        position: relative;
+        /* display: flex;
+        justify-content: center; */
+    }
+    
+    .where-we-are h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .where-we-are img {
+        margin: auto;
+        display: block;
+        width: 60%;
+        margin-bottom: 60px;
+    }
+    
+    .where-we-are h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
