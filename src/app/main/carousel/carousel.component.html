@@ -1,0 +1,9 @@
+<div class="overlay"></div>
+<ngx-slick-carousel class="carousel" [config]="slideConfig" #slickModal="slick-carousel">
+    <div ngxSlickItem class="slide" *ngFor="let slide of slides"><img [src]="slide.image" alt="Slide Image">
+        <div class="slide-content">
+            <h3>{{ slide.title }}</h3>
+            <p>{{ slide.description }}</p>
+        </div>
+    </div>
+</ngx-slick-carousel>

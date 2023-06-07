@@ -1,20 +1,21 @@
-/* * {
+* {
     padding-top: 0;
     margin: 0;
     box-sizing: border-box;
-} */
+}
 
 header {
     width: 100%;
     height: auto;
     position: relative;
     overflow: hidden;
-    /* padding-top: 100px; */
+    background-color: black;
 }
 
 video {
     width: 100%;
-    height: 90%;
+    height: auto;
+    opacity: 0.3;
 }
 
 .header-text {
@@ -79,12 +80,17 @@ h1 {
 }
 
 .text-typsa {
-    width: 100%;
     color: white;
     object-fit: cover;
     height: 100%;
     font-weight: lighter;
     font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+h2 {
+    margin-bottom: 10px;
 }
 
 .img-typa {

@@ -27,7 +27,7 @@
 
 .menu {
     position: relative;
-    margin-left: 5%;
+    padding-left: 5%;
 }
 
 .menu a {
@@ -38,6 +38,12 @@
     color: #FFF;
 }
 
+.menu a:hover {
+    color: #d12020;
+}
+
+
+/* 
 .menu a::before {
     content: '';
     position: absolute;
@@ -56,4 +62,4 @@
     transform-origin: left;
     transform: scaleX(1);
     transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
-}
+} */
