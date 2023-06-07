@@ -17,6 +17,7 @@ import { CarouselComponent } from './main/carousel/carousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { WhereWeAreComponent } from './main/where-we-are/where-we-are.component';
+import { NewsComponent } from './main/news/news.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { WhereWeAreComponent } from './main/where-we-are/where-we-are.component'
     HeaderMenuComponent,
     MainContainerComponent,
     CarouselComponent,
-    WhereWeAreComponent
+    WhereWeAreComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

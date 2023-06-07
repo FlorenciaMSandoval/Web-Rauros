@@ -6,6 +6,46 @@ footer {
     background-color: #151515;
     color: white;
     position: relative;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
     padding-top: 2%;
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.copyright a {
+    background: none;
+    border: none;
+    color: white;
+}
+
+.copyright a:hover {
+    color: rgb(216, 55, 55);
+}
+
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-menu a:hover {
+    color: rgb(216, 55, 55);
+    text-decoration: none;
+}
+
+.social-network a {
+    margin: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.social-network a:hover {
+    color: rgb(216, 55, 55);
+}
+
+.info-text-2 {
+    margin-bottom: 10px;
 }
