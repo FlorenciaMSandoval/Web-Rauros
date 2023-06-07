@@ -1,0 +1,13 @@
+.where-we-are {
+    padding-top: 20px;
+}
+
+.where-we-are h1 {
+    text-align: center;
+}
+
+.where-we-are img {
+    display: flex;
+    width: 500px;
+    align-items: center;
+}
